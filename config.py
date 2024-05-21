@@ -15,9 +15,9 @@ API_HASH = getenv("API_HASH", "")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Iamuput")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Gutama27")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "NezukoMusicRobot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "TubeCaseBot")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -40,7 +40,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ISI GOBLOK GAUSA BEGO² AMAT")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1843616228").split())
+    map(int, getenv("OWNER_ID", "1271323777").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -52,7 +52,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/iamuput/NezukoMusic",
+    "https://github.com/Gutama1228/musik",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -61,12 +61,12 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Flukosaa")
+    "SUPPORT_CHANNEL", "https://t.me/gbtktl")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/UputtSupport")
+    "SUPPORT_GROUP", "https://t.me/tubecasesupport")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -154,8 +154,8 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = "https://telegra.ph//file/bbdab35972d61a0cae983.jpg"
-PING_IMG_URL = "https://telegra.ph//file/e14488acaa70ae35d2506.jpg"
+START_IMG_URL = "https://telegra.ph/file/25bf2a26fefd34dd03e63.jpg"
+PING_IMG_URL = "https://telegra.ph/file/25bf2a26fefd34dd03e63.jpg"
 PLAYLIST_IMG_URL = "https://telegra.ph//file/dfca5abcdca4dea7ec09c.jpg"
 GLOBAL_IMG_URL = "https://telegra.ph//file/bbdab35972d61a0cae983.jpg"
 STATS_IMG_URL = "https://telegra.ph//file/6be6db8050a16fe945184.jpg"
